@@ -1,6 +1,9 @@
 import * as React from 'react';
 import './style.css';
 
+// Ejercicio Click Tracker
+
+// Uso de State
 export default function App() {
   const [numerCount, setNumberCount] = React.useState(0);
   const [date, setDate] = React.useState('');
